@@ -10,9 +10,9 @@ class Usuario {
     String fechaNacimiento;
     transient String noIrPerteneceAlModelo;
 
-    //Los setea automatico...
-    Date dateCreated
-    Date lastUpdated
+
+    Date dateCreated    //fechaInicio
+    Date lastUpdated     //fechaFin
 
     //Uno a Mucho.
     static hasMany = [listaEventos : EventoUsuario]
